@@ -7,10 +7,13 @@ All question of tree are based on traversal technique's. These are the all the t
 5. BFS
 6. DFS
 
+### Binary Search Tree
+
+1. Sorted In-order
+2.  Range should be valid 
+3. Property of BST
 
 question for revision  :- 
-https://www.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1 (Fixing Two nodes of a BST)
-
-https://www.geeksforgeeks.org/problems/k-sum-paths/1 (K Sum Paths)
-
-https://www.geeksforgeeks.org/problems/construct-tree-1/1 (Construct Tree from Inorder & Preorder)
+[Fixing Two nodes of a BST](https://www.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1)
+[K Sum Paths](https://www.geeksforgeeks.org/problems/k-sum-paths/1 )
+[Construct Tree from Inorder & Preorder](https://www.geeksforgeeks.org/problems/construct-tree-1/1)

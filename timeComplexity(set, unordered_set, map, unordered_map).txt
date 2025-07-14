@@ -1,0 +1,75 @@
+unordered_set :- 
+
+size() -> Time Complexity: size() method takes O(1).
+
+remove() ->
+
+	Method(1): unordered_set_name.erase(iterator start, iterator end)
+       
+	Method(2): unordered_set_name.erase(iterator position)
+	          
+	Method(3): unordered_set_name.erase(element)
+
+	Complexity: 
+
+	Average case: Linear in the number of elements removed (which is constant for Method(2) and Method(3)).
+
+	Worst case: Linear in the container size.
+
+insert -> 
+	Time Complexity: insert() method takes O(1).
+
+	unordered_set_name.insert (Value)
+
+	or,
+
+	unordered_set_name.insert (InputIterator first, InputIterator last)
+
+find -> 
+	unordered_set_name.find(key)
+
+	Time Complexity: O(1)
+
+	Auxiliary Space: O(n)
+
+count -> 
+	unordered_set_name.count(element)
+
+	Time Complexity: Time Complexity for unordered_set::count() method is O(1) in average cases, but in worst case, time complexity can be O(N) i.e. 	Linear, where N is size of container. 
+
+unordered_map :-
+
+	
+	size() -> O(1)
+	
+	remove() -> O(1) in average and O(N) in worst
+
+	insert -> O(1) in average and O(N) in worst
+
+	find -> O(1) in average and O(N) in worst
+	
+	count -> O(1) in average and O(N) in worst
+
+map :-
+
+	size() -> O(1)
+	
+	remove() ->O(log n)
+
+	insert -> O(log n)
+
+	find -> O(log n)
+	
+	count -> O(log n)
+
+set :-
+	
+	size() -> O(1)
+	
+	remove() ->O(log n)
+
+	insert -> O(log n)
+
+	find -> O(log n)
+	
+	count -> O(log n)

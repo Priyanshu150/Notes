@@ -64,5 +64,34 @@ We keep statement in block because we want js to consider it as 1 statement.
 	(Illegal shadowing) -> Shadowing is only possible when scope of variable is not hamper. For ex, var can be shadowed by let but vice-versa is not true.
 
 
+### Basic extra js knowledge
+
+NOTE :- running a file in using.js -> node filename1.js
+
+score = 10 // valid variable declaration without let, const & var
+
+typeof null is object 
+typeof undefined is undefined
+
+"use strict" // treat all js code as newer version
+
+//conversion
+'33' => 33
+'33abs' =>NaN
+true => 0
+false => 1
+"1" + 2 + 3 => "123"
+2 + 3 + "1" => 51
+
+
+//Data types
+
+1. Primitive (copy is created / pass by value) (stack memory used)
+	 7 types :- String, Number, Boolean, null, undefined, symbol, bigInt
+2. Non Primitive (reference is passed) (heap memory used)
+	Array, Object, Function
+
+
+
 
 

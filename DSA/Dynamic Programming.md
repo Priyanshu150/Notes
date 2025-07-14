@@ -4,6 +4,10 @@ Concept for solving dynamic programming problem :-
 3. Find out the result (min, max, count, etc...)
 4. Write the base case accordingly
 
+Concept for solving partition problems :-
+1. Start with entire block/array express always in terms of i & j
+2. Try out all possible ways (probably run a loop)
+3. Return the best possible 2 partitions
 #### Concept 
 	The concept is to not recalcualte the state which already previously occured. Instead save it in some data structure and use it later.
 	
@@ -14,3 +18,6 @@ There are 3 ways to achieve DP :-
 	ex - if going (1 - n) in memoization use (n - 1) in tabulation and vice-versa
 
 3. **Space optimization** :- Use further optimization to reduce space if possible. It's not possible in every case.
+
+Important Questions :- 
+[Maximum sum of elements not part of LIS](https://www.geeksforgeeks.org/problems/maximum-sum-of-elements-not-part-of-lis/1)
