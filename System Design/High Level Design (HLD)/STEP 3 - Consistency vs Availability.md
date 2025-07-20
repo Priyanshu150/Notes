@@ -3,13 +3,14 @@
 	**Data consistency** means that all users (or nodes) see the **same data** at the same time, regardless of where or how they access it.
 	
 	**Types / Levels of Consistency** 
-	![[Pasted image 20250720112739.png]]
+	![alt text](Images/levels_of_consistency.png)
 		
 2. Isolation and it's level
 	**Isolation** ensures that **concurrent transactions** do not interfere with each other and lead to **inconsistent results**.
 	
 	**Types / Levels of Consistency**
-	![[Pasted image 20250720113713.png]]
+	![alt text](Images/levels_of_isolations.png)
+	
 3. CAP Theorem
 	 P stand for **Partition Tolerance** means the system continues to function **even if network communication between nodes is broken or delayed.**
 	![alt text](cap_theorem_img.png)

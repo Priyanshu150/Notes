@@ -1,15 +1,15 @@
 
 1. SQL V/S NO-SQL 
-	![alt text](sql_or_noSql.png)
+	![alt text](Images/sql_or_noSql.png)
 	
-	![[summary_of_nosql.png]]
+	![alt text](Images/summary_of_nosql.png)
 
 2. In-memory DBs
 	An **In-Memory Database (IMDB)** stores data **entirely in RAM** rather than on disk.
 	“Faster data access by keeping everything in memory (RAM), not on disk.”
 	
-	![[Pasted image 20250718111604.png]]
-	![[Pasted image 20250718111627.png]]
+	![alt text](Images/key_char_of_IMDB.png)
+	![alt text](Images/ex_of_IMDB.png)
 	
 
 3. Data Replication & Migration 
@@ -21,7 +21,7 @@
 			- Faster local access (geo-distributed replicas)
 			- Load distribution
 	
-	![[Pasted image 20250718113731.png]]
+	![alt text](Images/type_of_replication.png)
 	#MIGRATIONS :-  **Migration** is the process of **moving data** from one system/storage/database/version to another.
 	
 		🧠 Why It Matters:
@@ -31,11 +31,11 @@
 		- Cloud migrations (e.g., on-prem → AWS)
 		- Architectural change
 	
-	![[Pasted image 20250718114338.png]]
+	![alt text](Images/type_of_migration.png)
 
 4. Data Partitioning 
 	**Partitioning** is the process of **dividing a large dataset** into smaller, **independent chunks (partitions)** so they can be distributed across **multiple machines or databases**.
-	![[Pasted image 20250719111921.png]]
+	![alt text](Images/why_partition.png)
 	
 	**Types of Data Partitioning** :- 
 		1) Horizontal Partitioning (Sharding)
@@ -49,4 +49,4 @@
 			- Example: Orders DB, Users DB, Products DB.
 5. Sharding
 	
-	![[Pasted image 20250719113306.png]]
+	![alt text](Images/sharding_strategies.png)
