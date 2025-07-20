@@ -12,5 +12,6 @@
 	![[Pasted image 20250720113713.png]]
 3. CAP Theorem
 	 P stand for **Partition Tolerance** means the system continues to function **even if network communication between nodes is broken or delayed.**
-	![[Pasted image 20250720115406.png]]
+	![alt text](cap_theorem_img.png)
+	
 	example :- https://www.youtube.com/watch?v=8UryASGBiR4

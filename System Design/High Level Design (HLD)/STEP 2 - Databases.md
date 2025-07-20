@@ -1,8 +1,8 @@
 
 1. SQL V/S NO-SQL 
-	![[Pasted image 20250716203553.png]]
+	![alt text](sql_or_noSql.png)
 	
-	![[Pasted image 20250716210138.png]]
+	![[summary_of_nosql.png]]
 
 2. In-memory DBs
 	An **In-Memory Database (IMDB)** stores data **entirely in RAM** rather than on disk.
