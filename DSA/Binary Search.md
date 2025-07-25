@@ -20,3 +20,10 @@ Pattern based on BS :-
 | Insert position in sorted array | `lower_bound()` gives correct place              |
 | Range queries                   | Find range [L, R] efficiently                    |
 | Floor / Ceil logic              | `lower_bound` for **ceil**, custom for **floor** |
+Important questions :- 
+
+[Median in a row-wise sorted Matrix](https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1)
+[Single Element in a Sorted Array](https://leetcode.com/problems/single-element-in-a-sorted-array/)
+[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
+[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
+[Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)

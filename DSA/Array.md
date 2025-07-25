@@ -9,3 +9,8 @@ Ways to solve array problems :-
 	
 	 1.3. Sliding window
 		Apply two pointer technique to create a window and slide the window according to the requirement
+
+### Revision Questions :- 
+
+[Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)
+[Smallest Positive Missing](https://www.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1)
