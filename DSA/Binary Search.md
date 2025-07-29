@@ -5,7 +5,7 @@ Pattern based on BS :-
 3. Binary Search on Answers (Search Space Reduction)
 4. Search in a rotated array 
 5. Search in Infinite sorted array
-6. Divide and Conquer 
+6. Divide and Conquer / Valid Partitions 
 	-  Median of Two Sorted Array 
 	- Kth smallest/largest element in two sorted array 
 
@@ -20,6 +20,8 @@ Pattern based on BS :-
 | Insert position in sorted array | `lower_bound()` gives correct place              |
 | Range queries                   | Find range [L, R] efficiently                    |
 | Floor / Ceil logic              | `lower_bound` for **ceil**, custom for **floor** |
+|                                 |                                                  |
+|                                 |                                                  |
 Important questions :- 
 
 [Median in a row-wise sorted Matrix](https://www.geeksforgeeks.org/problems/median-in-a-row-wise-sorted-matrix1527/1)
@@ -27,3 +29,6 @@ Important questions :-
 [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
 [Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/)
 [Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+[Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+[Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
+[Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)
