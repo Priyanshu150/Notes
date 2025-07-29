@@ -107,3 +107,34 @@
 
 
 4. WEBRTC and video streaming 
+	**WebRTC (Web Real-Time Communication)** is an open-source project and set of protocols that enables **real-time audio, video, and data communication** directly between **browsers or devices** — **without requiring plugins or third-party software**.
+	It’s designed for **peer-to-peer** (P2P) communication — which means two users can connect directly to each other with minimal latency.
+	
+	For Interview :- 
+	- WebRTC is a browser-native protocol for real-time communication over peer-to-peer connections.  
+	- It’s ideal for video calls, live audio, and even file sharing. It uses STUN/TURN servers for NAT traversal and establishes secure, low-latency connections directly between users.  
+	- Unlike traditional streaming (e.g., HLS), WebRTC is ultra-low latency and bi-directional.
+	
+	![](../Images/where_WebRTC_used.png)
+	![](../Images/WebRTC_Architecture.png)
+	## 🛠️ How WebRTC Connection is Established
+	1)  **Media Access**
+		- User grants access to webcam/mic via `getUserMedia()`.
+	2) **Signaling (Out-of-scope for WebRTC itself)**
+		- WebRTC **needs a signaling server** (like via WebSocket or HTTP) to exchange:
+			- **SDP (Session Description Protocol)**: codec, IP, media info
+            - **ICE Candidates**: possible network paths for communication
+	3) **NAT Traversal (ICE + STUN/TURN)**
+		- Helps establish P2P even when users are behind firewalls or NAT.
+		- **STUN**: Finds public IP.
+		- **TURN**: Relay server fallback if direct P2P fails.
+	4) **Peer Connection**
+		- Once signaling + ICE is complete, **direct peer-to-peer connection** is established.
+	
+	![](../Images/WebRTC%20vs%20Traditional.png)
+	
+	###  🔐 Bonus: WebRTC Security
+	WebRTC is **secure by default**:
+	- **DTLS** secures signaling and data.
+    - **SRTP** encrypts media streams.
+    - HTTPS is required to access media devices (camera/mic).
