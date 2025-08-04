@@ -1,3 +1,4 @@
+Note :- It's better to satisfy some of the user than to disappoint all of them
 
 System design should depend on following patterns :- 
 
