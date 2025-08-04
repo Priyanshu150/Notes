@@ -1,4 +1,4 @@
-Pattern based on BS :- 
+	Pattern based on BS :- 
 
 1. Standard Binary Search 
 2. Lower Bound(First Occurrence) & Upper Bound (Last Occurrence)
@@ -32,3 +32,7 @@ Important questions :-
 [Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/)
 [Split Array Largest Sum](https://leetcode.com/problems/split-array-largest-sum/)
 [Maximum Tastiness of Candy Basket](https://leetcode.com/problems/maximum-tastiness-of-candy-basket/)
+[Kth Smallest Number in Multiplication Table](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table/)
+[Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
+[Maximize the Minimum Powered City](https://leetcode.com/problems/maximize-the-minimum-powered-city/)
+[K-th element of two Arrays](https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1)

@@ -21,3 +21,4 @@ There are 3 ways to achieve DP :-
 
 Important Questions :- 
 [Maximum sum of elements not part of LIS](https://www.geeksforgeeks.org/problems/maximum-sum-of-elements-not-part-of-lis/1)
+[Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)
