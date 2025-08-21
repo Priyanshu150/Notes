@@ -14,3 +14,5 @@ Ways to solve array problems :-
 
 [Find Missing and Repeated Values](https://leetcode.com/problems/find-missing-and-repeated-values/)
 [Smallest Positive Missing](https://www.geeksforgeeks.org/problems/smallest-positive-missing-number-1587115621/1)
+[Count the Number of Inversions](https://leetcode.com/problems/count-the-number-of-inversions/)
+[Count Reverse Pairs](https://www.geeksforgeeks.org/problems/count-reverse-pairs/1)

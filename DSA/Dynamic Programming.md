@@ -22,3 +22,7 @@ There are 3 ways to achieve DP :-
 Important Questions :- 
 [Maximum sum of elements not part of LIS](https://www.geeksforgeeks.org/problems/maximum-sum-of-elements-not-part-of-lis/1)
 [Maximum Total Damage With Spell Casting](https://leetcode.com/problems/maximum-total-damage-with-spell-casting/)
+[Longest Arithmetic Subsequence](https://leetcode.com/problems/longest-arithmetic-subsequence/)
+[K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/)
+[Maximum Difference Score in a Grid](https://leetcode.com/problems/maximum-difference-score-in-a-grid/)
+ [Number of Paths with Max Score](https://leetcode.com/problems/number-of-paths-with-max-score/)
