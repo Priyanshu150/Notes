@@ -138,3 +138,48 @@
 	- **DTLS** secures signaling and data.
     - **SRTP** encrypts media streams.
     - HTTPS is required to access media devices (camera/mic).
+	
+5.  TLS Handshake
+	A TLS handshake is the process that establishes a secure connection between a client and a server using the Transport Layer Security (TLS) protocol, previously known as SSL.
+	
+	![](../Images/TLS%20Versions.png)
+	
+	## 1️⃣ Traditional (TLS 1.2 – RSA or DH based)
+		Client Hello
+			- Client → Server
+			- Proposes supported TLS version, cipher suites, random number, etc.
+			
+		 Server Hello
+			 - Server → Client
+			 - Chooses cipher suite, sends its certificate (public key),server random.
+        Key Exchange
+	        - Client validates certificate, generates a pre-master secret, encrypts with server’s public key, sends to server.
+	        - Both sides derive the same session key using client random + server random + pre-master secret.
+	        
+        Session Established
+	        - Both now use symmetric encryption (AES, etc.) for fast communication.
+        
+    ⚡️ Problem:
+    - Many round trips → slower.
+    - Doesn’t hide metadata (like SNI, cipher lists).
+	
+	## 2️⃣ Modern (TLS 1.3 – Default today)
+		TLS 1.3 simplified the handshake for speed + security:
+		
+		Client Hello
+			- Client proposes ciphers, TLS version, and also sends key share (Diffie-Hellman params).
+			
+		Server Hello
+			- Server selects cipher, sends back its key share + certificate.
+			
+		Key Agreement
+		- Both compute session key (using Diffie-Hellman exchange).
+		
+		Finished
+			- Session established in just 1 round-trip (1-RTT).
+			- Supports 0-RTT resumption → client can send data immediately on reconnect.
+	
+	# 📝 Interview Tip
+	If asked:  👉 _“How does TLS ensure secure communication?”_
+	Answer:
+	TLS uses asymmetric encryption during handshake to agree on a shared session key. After that, symmetric encryption secures all data (fast + secure). TLS 1.3 reduced handshake round trips, added forward secrecy, and enabled 0-RTT resumption.

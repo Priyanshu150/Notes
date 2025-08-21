@@ -10,12 +10,51 @@
 	
 	 Do you know about **invalidation** and **staleness**?
 		=> Use TTLs, versioning, write-through strategy, or explicit invalidation.
-
+	
 2. Write Policies : write back, through and around
 	![](../Images/common_cache_strategies.png)
-	In a **Write-Around** strategy:
-	- Write operations go directly to the database (bypassing the cache).
-	- The cache is only updated when the data is read again (lazy population).
+	
+	1) **Cache-aside (Lazy Loading)**
+	- App checks cache first.
+	- If data not found (**cache miss**) → fetch from DB → update cache → return response.
+	- Cache populated _only when needed_.
+	- ✅ Pros: Simple, avoids filling cache with unused data.
+	- ❌ Cons: First request = slow (miss penalty).
+	
+	2)  **Write-through
+    - Every write goes to **cache + database simultaneously**.
+    - Cache always up-to-date.
+    - ✅ Pros: Strong consistency between cache & DB.
+    - ❌ Cons: Higher write latency (since every write updates 2 places).
+    - 💡 Used in: Systems where **reads are frequent and consistency is critical** (e.g., user sessions).
+	
+	3) Write-back (Write-behind)
+	- Write only to **cache** → acknowledge success → later **flush/write** to DB asynchronously.
+	- ✅ Pros: Very fast writes, reduces DB load.
+	- ❌ Cons: Risk of data loss if cache fails before flushing.
+	- 💡 Used in: High-write, less critical systems (e.g., logging, counters, analytics).
+	
+	4) **Write-around**
+    - Write goes **only to DB** (not cache).
+    - Cache updated only on next read (lazy).
+    - ✅ Pros: Cache not polluted with rarely-read data.
+    - ❌ Cons: First read after write = cache miss (slower).
+    - 💡 Used in: Systems with **write-heavy but read-sparse** workloads.
+	
+	5)  **Read-through**
+    - Application always queries the cache.
+    - If cache miss → cache automatically fetches from DB → stores → returns.
+    - ✅ Pros: Transparent for application (simpler app logic).
+    - ❌ Cons: Cache becomes bottleneck if not scaled well.
+    - 💡 Used in: Distributed caching systems (like Redis with a loader).
+	
+	1) **Refresh-ahead**
+    - Cache **proactively refreshes data** before expiry (TTL).
+    - Users always see warm cache.
+    - ✅ Pros: Avoids cache misses for frequently accessed data.
+    - ❌ Cons: May refresh data that’s never accessed again (wasted work).
+    - 💡 Used in: Real-time apps with predictable access patterns (stock prices, trending videos).
+    
 	![](../Images/comparision_with_write_cache_strategies.png)
 
 

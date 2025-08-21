@@ -1,7 +1,7 @@
-**What is a Monolith?**
+1. **What is a Monolith?**
  => A **monolithic app** is a single codebase where all features and modules are tightly coupled and deployed as one unit
  ![](../Images/Issues%20in%20Large%20Monoliths.png)
-1. **Why microservices ?**
+2. **Why microservices ?**
 	**Microservices** is an architectural style that structures an application as a **collection of small, independent, loosely coupled services** that communicate over APIs.
 	
 	Each microservice is:
@@ -21,7 +21,7 @@
 	## 🎯 Interview Summary Statement
 	Microservices architecture allows systems to scale, evolve, and deploy independently. It promotes team autonomy and resilience, especially in large systems. However, it introduces distributed system complexity, so it's best suited for organizations prepared to handle operational challenges like service discovery, observability, and eventual consistency.
 
-2. Concept of 'Single Point of Failure '
+3. Concept of 'Single Point of Failure '
 	A **Single Point of Failure (SPOF)** is **any individual component** in a system — hardware, software, or process — that, if it fails, causes the **entire system to stop working**.
 	
 	![](../Images/Real%20world%20ex%20of%20SPOFs.png)
@@ -37,7 +37,7 @@
 	High-Availability Fix:
 	[Client] → [LB1, LB2] → [App1, App2, App3] → [DB1 (Primary), DB2 (Replica)]
 
-3. Avoiding Cascading failures 
+4. Avoiding Cascading failures 
 	=> A **cascading failure** happens when the failure of **one component** triggers a **chain reaction** of failures across other services or layers of the system.
 	![](../Images/Cause%20of%20Cascading%20failures.png)
 	![](../Images/Strategies%20to%20prevent%20cascading%20failures.png)
@@ -46,7 +46,7 @@
 	“Cascading failures occur when one component fails and its load spills over to others, bringing down the system.  
 	To prevent this, I use patterns like timeouts, circuit breakers, bulkheads, and load shedding to isolate faults and degrade gracefully. This ensures the system stays resilient even under stress.”
 
-4. Containerizations (docker)
+5. Containerizations (docker)
 	### 🔍 What is Containerization?
 	**Containerization** is the process of **packaging software** along with its dependencies, configuration, and runtime into a **single portable unit** called a **container**.
 	This ensures that the application **runs consistently** across different environments — from a developer’s laptop to staging, to production.
@@ -76,11 +76,11 @@
 	### 📈 How It Helps in Interviews
 	Containerization helps achieve consistency, portability, and faster deployments. Using Docker, I can ensure my service behaves the same from dev to production. I package each microservice into a container, use Compose for local orchestration, and deploy them using Kubernetes for scaling.
 
-5. Migration to microservices 
+6. Migration to microservices 
 	**Migrating to microservices** means moving from a **monolithic** architecture (one large codebase) to an **independent, loosely-coupled set of services** — where each service focuses on a single business capability and can be developed, deployed, and scaled independently.
 	
 	![](../Images/Why%20Migrate.png)
-	![](../../Challenges%20of%20Migration.png)
+	![](../Images/Challenges%20of%20Migration.png)
 	
 	### 🛣️ Migration Strategy — Step-by-Step
 	1) **Assess & Plan**
