@@ -3,7 +3,7 @@ HLD deals with functional and non-functional requirement of the system
 1. **What is Server and Serverless Architectures** ?
 		In **serverless architecture**, **you write code without managing servers**. The cloud provider handles provisioning, scaling, and maintenance.
 		You focus only on the logic (functions or APIs). 
-		![alt text](server_or_serverless.png)
+		![alt text](Images/server_or_serverless.png)
 	
 	In **server-based architecture**, you manage and run servers (physical or virtual) to host your application.
 	 

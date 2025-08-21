@@ -2,9 +2,9 @@
 A **load balancer** is a system that distributes incoming network traffic across **multiple servers** to ensure no single server becomes a bottleneck. It improves **performance**, **reliability**, and **availability** of applications.
 
 1. **Load Balancing Algorithms (Stateless & Stateful)**
-	![](../Images/Load%20Balancing%20Algorithms.png)
-	![](../Images/Types%20of%20Load%20Balancers.png)
-	![](../Images/Stateless%20vs%20Stateful.png)
+	![](Images/Load%20Balancing%20Algorithms.png)
+	![](Images/Types%20of%20Load%20Balancers.png)
+	![](Images/Stateless%20vs%20Stateful.png)
 	
 	## 💡How It Affects Load Balancing?
 	🟩 Stateless Applications
@@ -58,7 +58,7 @@ A **load balancer** is a system that distributes incoming network traffic across
 		- Each server is represented **multiple times** on the ring (e.g., `S1-1`, `S1-2`, `S1-3`)
 		- Helps even out hot spots and uneven key distributions.
 	
-	![](../Images/use-case%20of%20consistent%20hashing.png)
+	![](Images/use-case%20of%20consistent%20hashing.png)
 	
 3. **Proxy and Reverse Proxy**
 	## 🧑‍💻 Forward Proxy (a.k.a. "Proxy")
@@ -88,7 +88,7 @@ A **load balancer** is a system that distributes incoming network traffic across
 		- It routes to one of many internal servers: 
 			You → Reverse Proxy → Backend Server
 	
-	![](../Images/Proxy%20and%20Reverse%20Proxy.png)
+	![](Images/Proxy%20and%20Reverse%20Proxy.png)
 
 4. **Rate Limiting**
 	**Rate limiting** is a technique used to **control the number of requests a user or system can make to a service** over a given period of time.
@@ -103,9 +103,9 @@ A **load balancer** is a system that distributes incoming network traffic across
 	- **Messaging apps**: Only 10 messages/min per user
     - **Payment systems**: Only 3 transactions/second per card
     
-	![](../Images/Why%20Use%20Rate%20Limiting.png)
-	![](../Images/Rate%20limiting%20Strategies.png)
-	![](../Images/Examples%20of%20Rate%20limiting.png)
+	![](Images/Why%20Use%20Rate%20Limiting.png)
+	![](Images/Rate%20limiting%20Strategies.png)
+	![](Images/Examples%20of%20Rate%20limiting.png)
 	[Client] → [API Gateway / Load Balancer]
                      ↓
            [Rate Limiter Logic]

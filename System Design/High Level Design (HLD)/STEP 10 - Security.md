@@ -7,9 +7,9 @@
     🔁 **Reusable**: Once authenticated, the token can be sent with each request
     🔐 **More secure**: Password is never stored or sent again after login
     🌍 **Scalable**: Works well with distributed & microservices architecture
-	![](../Images/Common%20types%20of%20tokens.png)
-	![](../Images/JWT%20token%20example.png)
-	![](../Images/Bearer%20Token%20example.png)
+	![](Images/Common%20types%20of%20tokens.png)
+	![](Images/JWT%20token%20example.png)
+	![](Images/Bearer%20Token%20example.png)
 	🔁 How Token-Based Auth Works
 		[User Login]
 		   ↓
@@ -27,7 +27,7 @@
 	- Access tokens = **short-lived** (e.g., 15 minutes)
     - Refresh tokens = **long-lived** (e.g., 30 days)
     - When access token expires → **refresh token** is used to get a new one
-    ![](../Images/When%20to%20use%20what%20tokens.png)
+    ![](Images/When%20to%20use%20what%20tokens.png)
 	
 	## 🧱 Statelessness in Microservices
 	- Since token carries **all auth data**, no session is needed
@@ -69,8 +69,8 @@
 	5) You approve → Google sends a **temporary token** to the app
 	6) The app uses that token to access your data **without your password**
 	
-	![](../Images/OAuth%20Roles.png)
-	![](../Images/SSO%20vs%20OAuth.png)
+	![](Images/OAuth%20Roles.png)
+	![](Images/SSO%20vs%20OAuth.png)
 	
 	## 🔐 Can OAuth Be Used for SSO?
 	Yes — with **OpenID Connect** (OIDC) on top of OAuth 2.0, you can implement **SSO**.
@@ -111,7 +111,7 @@
 	#Real-world Analogy: Just like traffic signals **automatically decide** when to turn red/green based on rules (e.g., timers, sensors), a rule engine makes business decisions based on configured rules.
 	
 	That’s a **business rule**. Instead of coding this logic everywhere, you write rules into a rule engine (like Drools or Open Policy Agent).
-	![](../Images/ACL%20vs%20Rule%20Engine.png)
+	![](Images/ACL%20vs%20Rule%20Engine.png)
 	
 	- 🔒 **OPA (Open Policy Agent)**: Popular rule engine for access control
 	- 📊 Rule engines are often embedded into **microservices** to separate business logic from code
@@ -146,7 +146,7 @@
 	- JWT Tokens (signing and verification
 	- Secure messaging
 	
-	![](../Images/Common%20use%20Patterns%20(encryption).png)
+	![](Images/Common%20use%20Patterns%20(encryption).png)
 	
 	## 🔐 Encryption in Action (System Design Perspective)
 	**Example: Login Flow**
@@ -232,7 +232,7 @@
     
     📦 **Analogy**:  Like **translating a book into another language** 🌍. Anyone can read if they know the language, no secrecy involved.
 	
-	![](../Images/Hashing%20vs%20Encryption%20vs%20Encoding.png)
+	![](Images/Hashing%20vs%20Encryption%20vs%20Encoding.png)
 
 7. Encryption at Rest vs In Transit
 	## 1️⃣ **Encryption at Rest**
@@ -261,7 +261,7 @@
     ✅ **Example**:
     - When you enter your password on a website, TLS ensures it’s encrypted while traveling from your browser to the server.
 	
-	![](../Images/Encryption%20at%20Rest%20and%20Transit.png)
+	![](Images/Encryption%20at%20Rest%20and%20Transit.png)
 
 
 8. Public key Infrastructure 
@@ -319,6 +319,6 @@
 	- Code signing (verify software isn’t tampered).
 	- IoT device authentication.
 	
-	![](../Images/PKI.png)
+	![](Images/PKI.png)
 	
 	⚡ **Interview Tip**:  PKI solves the problem of securely distributing and validating public keys at scale. Without PKI, we couldn’t trust if a public key actually belongs to a server, user, or attacker. It’s the backbone of HTTPS and secure communication.

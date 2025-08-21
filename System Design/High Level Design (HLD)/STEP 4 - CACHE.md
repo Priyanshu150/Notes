@@ -1,7 +1,7 @@
 
 1. What is cache ? (Redis, Memcached)
 	A **cache** is a high-speed, temporary storage layer that holds **frequently accessed data** to reduce latency and load on backend systems.
-	![](../Images/why_cache.png)
+	![](Images/why_cache.png)
 	Can you identify **what to cache**?
 		=> Product listings, search results, homepage data, session tokens.
     
@@ -12,7 +12,7 @@
 		=> Use TTLs, versioning, write-through strategy, or explicit invalidation.
 	
 2. Write Policies : write back, through and around
-	![](../Images/common_cache_strategies.png)
+	![](Images/common_cache_strategies.png)
 	
 	1) **Cache-aside (Lazy Loading)**
 	- App checks cache first.
@@ -55,7 +55,7 @@
     - ❌ Cons: May refresh data that’s never accessed again (wasted work).
     - 💡 Used in: Real-time apps with predictable access patterns (stock prices, trending videos).
     
-	![](../Images/comparision_with_write_cache_strategies.png)
+	![](Images/comparision_with_write_cache_strategies.png)
 
 
 3. Replacement Policies : LFU, RFU, Segmented LRU etc.
@@ -68,7 +68,7 @@
 		iv) **TTL (time to live)** - Automatically expires an item **after a fixed time** since insertion or last access.
 		v) Random Replacement (RR) - Randomly removes any item from the cache.
 		
-	![](../Images/eviction_policies_of_cache.png)
+	![](Images/eviction_policies_of_cache.png)
 	
 	
 	What is **Segmented LRU (SLRU)** ? 
@@ -76,8 +76,8 @@
 	- **Probationary Segment**: for _newly inserted or single-accessed_ items
     - **Protected Segment**: for _frequently reused_ items
     
-    ![](../Images/how_slru_works.png)
-	![](../Images/slru_use_cases.png)
+    ![](Images/how_slru_works.png)
+	![](Images/slru_use_cases.png)
 
 
 4. Content Delivery Networks (CDNs)
@@ -89,6 +89,6 @@
 	Popular CDN providers 
 	=> Cloudflare, Akamai, AWS CloudFront, Fastly, Google Cloud CDN, Azure CDN
 	
-	![](../Images/How_does_cdn_works.png)
-	 ![](../Images/benefits_of_cdn.png)![](../Images/Limitations_of_cdn.png)
-	 ![](../Images/When_to_use_CDN.png)
+	![](Images/How_does_cdn_works.png)
+	 ![](Images/benefits_of_cdn.png)![](Images/Limitations_of_cdn.png)
+	 ![](Images/When_to_use_CDN.png)

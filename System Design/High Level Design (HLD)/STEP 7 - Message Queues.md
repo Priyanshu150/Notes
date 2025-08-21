@@ -3,7 +3,7 @@
 	 ✅ What is Asynchronous Processing?
 	 Asynchronous processing means that a **task is initiated** but **not immediately completed** — instead of waiting, the system continues with other work.
 	
-	![](../Images/Sync%20vs%20Async.png)
+	![](Images/Sync%20vs%20Async.png)
 	
 	## 🎯 When to Use Asynchronous Processing?
 	- High throughput systems (millions of events/sec)
@@ -11,7 +11,7 @@
 	- Communication between loosely coupled microservices
 	- Buffering spikes in workload
 	
-	![](../Images/Common%20Tools%20(Message%20Brokers).png)
+	![](Images/Common%20Tools%20(Message%20Brokers).png)
 	
 	## ⚙️ How Does It Work?
 	 **Producer**: Publishes a message/event to a **Queue/Topic**
@@ -25,7 +25,7 @@
 	Note right of API Server: Response sent immediately
 	Kafka->>Email Service: Consumes event, sends email
 	
-	![](../Images/Kafka%20vs%20RabbitMQ.png)
+	![](Images/Kafka%20vs%20RabbitMQ.png)
 	
 	## 🧪 Key Terms
 	- **Topic** (Kafka) / **Queue** (RabbitMQ): Where messages are published
@@ -56,8 +56,8 @@
 	Message Broker->>Subscriber B: Sends message
 	Note right of Message Broker: Publisher doesn’t know who subscribers are
 	
-	![](../Images/Benefits%20of%20PUB-SUB.png)
-	![](../Images/Popular%20tools%20that%20use%20PUB-SUB.png)
-	![](../Images/Difference%20pub-sub%20and%20queue.png)
+	![](Images/Benefits%20of%20PUB-SUB.png)
+	![](Images/Popular%20tools%20that%20use%20PUB-SUB.png)
+	![](Images/Difference%20pub-sub%20and%20queue.png)
 	## 🎯 Interview-Ready Summary
 	The Pub/Sub model allows decoupling of services by letting publishers emit events to a topic without knowing who the subscribers are. It enables scalable and flexible communication in distributed systems, as seen in Kafka, RabbitMQ, and Google Pub/Sub. It’s ideal for broadcasting events to multiple services like logging, monitoring, or triggering downstream actions

@@ -31,7 +31,7 @@
 	    DNS queries
 	    Video conferencing
 	
-	![](../Images/comparision_table_tcp_and_udp.png)
+	![](Images/comparision_table_tcp_and_udp.png)
 
 
 
@@ -91,7 +91,7 @@
 		Mandatory for login forms, payment gateways, modern websites, etc.
 	
 	
-	![](../Images/http_versions_comparisions.png)
+	![](Images/http_versions_comparisions.png)
 	
 	YouTube links :- https://www.youtube.com/watch?v=UMwQjFzTQXw and https://www.youtube.com/watch?v=ocGtt0IX0Js
 
@@ -101,9 +101,9 @@
 	
 	Examples :- Chat apps, Live stock data, multiplayer games, live score apps, dashboards
 	
-	![](../Images/features_of_websockets.png)
-	![](../Images/how_websocket_works.png)
-	![](../Images/scaling_webSockets.png)
+	![](Images/features_of_websockets.png)
+	![](Images/how_websocket_works.png)
+	![](Images/scaling_webSockets.png)
 
 
 4. WEBRTC and video streaming 
@@ -115,8 +115,8 @@
 	- It’s ideal for video calls, live audio, and even file sharing. It uses STUN/TURN servers for NAT traversal and establishes secure, low-latency connections directly between users.  
 	- Unlike traditional streaming (e.g., HLS), WebRTC is ultra-low latency and bi-directional.
 	
-	![](../Images/where_WebRTC_used.png)
-	![](../Images/WebRTC_Architecture.png)
+	![](Images/where_WebRTC_used.png)
+	![](Images/WebRTC_Architecture.png)
 	## 🛠️ How WebRTC Connection is Established
 	1)  **Media Access**
 		- User grants access to webcam/mic via `getUserMedia()`.
@@ -131,7 +131,7 @@
 	4) **Peer Connection**
 		- Once signaling + ICE is complete, **direct peer-to-peer connection** is established.
 	
-	![](../Images/WebRTC%20vs%20Traditional.png)
+	![](Images/WebRTC%20vs%20Traditional.png)
 	
 	###  🔐 Bonus: WebRTC Security
 	WebRTC is **secure by default**:
@@ -142,7 +142,7 @@
 5.  TLS Handshake
 	A TLS handshake is the process that establishes a secure connection between a client and a server using the Transport Layer Security (TLS) protocol, previously known as SSL.
 	
-	![](../Images/TLS%20Versions.png)
+	![](Images/TLS%20Versions.png)
 	
 	## 1️⃣ Traditional (TLS 1.2 – RSA or DH based)
 		Client Hello

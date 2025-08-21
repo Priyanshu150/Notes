@@ -1,6 +1,6 @@
 1. **What is a Monolith?**
  => A **monolithic app** is a single codebase where all features and modules are tightly coupled and deployed as one unit
- ![](../Images/Issues%20in%20Large%20Monoliths.png)
+ ![](Images/Issues%20in%20Large%20Monoliths.png)
 2. **Why microservices ?**
 	**Microservices** is an architectural style that structures an application as a **collection of small, independent, loosely coupled services** that communicate over APIs.
 	
@@ -8,8 +8,8 @@
 	- Independently deployable
 	- Responsible for a single business capability
 	- Scalable and fault-tolerant on its own
-	![](../Images/Why%20microservices.png)
-	![](../Images/Trade-offs%20for%20microservices.png)
+	![](Images/Why%20microservices.png)
+	![](Images/Trade-offs%20for%20microservices.png)
 	
 	## 🧪 When NOT to Use Microservices
 	For small teams or MVPs, a monolith might be better due to its simplicity.
@@ -24,8 +24,8 @@
 3. Concept of 'Single Point of Failure '
 	A **Single Point of Failure (SPOF)** is **any individual component** in a system — hardware, software, or process — that, if it fails, causes the **entire system to stop working**.
 	
-	![](../Images/Real%20world%20ex%20of%20SPOFs.png)
-	![](../Images/Eliminate%20SPOFs.png)
+	![](Images/Real%20world%20ex%20of%20SPOFs.png)
+	![](Images/Eliminate%20SPOFs.png)
 	## Interview-Ready Answer
 	A single point of failure is any component that, if it fails, will cause the entire system to go down. 
 	 In production-grade systems, we eliminate SPOFs using redundancy, replication, and failover strategies.  
@@ -39,8 +39,8 @@
 
 4. Avoiding Cascading failures 
 	=> A **cascading failure** happens when the failure of **one component** triggers a **chain reaction** of failures across other services or layers of the system.
-	![](../Images/Cause%20of%20Cascading%20failures.png)
-	![](../Images/Strategies%20to%20prevent%20cascading%20failures.png)
+	![](Images/Cause%20of%20Cascading%20failures.png)
+	![](Images/Strategies%20to%20prevent%20cascading%20failures.png)
 	
 	### 💡 Interview Summary
 	“Cascading failures occur when one component fails and its load spills over to others, bringing down the system.  
@@ -51,14 +51,14 @@
 	**Containerization** is the process of **packaging software** along with its dependencies, configuration, and runtime into a **single portable unit** called a **container**.
 	This ensures that the application **runs consistently** across different environments — from a developer’s laptop to staging, to production.
 	Think of it like: A container is a lightweight suitcase with your app + everything it needs to run.
-	![](../Images/Containerization%20uses.png)
+	![](Images/Containerization%20uses.png)
 	### 🐳 What Is Docker?
 	**Docker** is the most popular containerization platform.
 	It allows you to:
 	- Package apps into containers
 	- Run and manage containers
 	- Pull prebuilt images from Docker Hub
-	![](../Images/Docker%20Terminology.png)
+	![](Images/Docker%20Terminology.png)
 	
 	### 💬 Real-World Example
 	Let’s say you have a **Node.js app** that needs:
@@ -71,7 +71,7 @@
 	- Install Mongo via a second service (using Docker Compose)
 	- Anyone can now run your full app with a single command → `docker-compose up`
 	
-	![](../Images/VM%20vs%20Docker.png)
+	![](Images/VM%20vs%20Docker.png)
 	
 	### 📈 How It Helps in Interviews
 	Containerization helps achieve consistency, portability, and faster deployments. Using Docker, I can ensure my service behaves the same from dev to production. I package each microservice into a container, use Compose for local orchestration, and deploy them using Kubernetes for scaling.
@@ -79,8 +79,8 @@
 6. Migration to microservices 
 	**Migrating to microservices** means moving from a **monolithic** architecture (one large codebase) to an **independent, loosely-coupled set of services** — where each service focuses on a single business capability and can be developed, deployed, and scaled independently.
 	
-	![](../Images/Why%20Migrate.png)
-	![](../Images/Challenges%20of%20Migration.png)
+	![](Images/Why%20Migrate.png)
+	![](Images/Challenges%20of%20Migration.png)
 	
 	### 🛣️ Migration Strategy — Step-by-Step
 	1) **Assess & Plan**
