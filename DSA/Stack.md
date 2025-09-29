@@ -1,5 +1,10 @@
 Stack is implement using a array.
 
+#### Patterns :-
+
+1. **Monotonic Stack** :- Increasing or Decreasing stack
+2. **Range / Subarray** :- Find the range or subarray using the previous smaller/largest element and next smaller/largest element 
+
 ### Important question of stack
 
 [Get Min from Stack](https://www.geeksforgeeks.org/problems/get-minimum-element-from-stack/1)
@@ -8,3 +13,4 @@ Stack is implement using a array.
 [Longest valid Parentheses](https://www.geeksforgeeks.org/problems/longest-valid-parentheses5657/1)
 [Histogram Max Rectangular Area](https://www.geeksforgeeks.org/problems/maximum-rectangular-area-in-a-histogram-1587115620/1)
 [ Sum of subarray minimum](https://www.geeksforgeeks.org/problems/sum-of-subarray-minimum/1)
+[Longest Subarray Length](https://www.geeksforgeeks.org/problems/longest-subarray-length--202010/1)

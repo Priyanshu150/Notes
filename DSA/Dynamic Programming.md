@@ -32,3 +32,5 @@ Important Questions :-
  [Print all LCS sequences](https://www.geeksforgeeks.org/problems/print-all-lcs-sequences3413/1)
  [Number of People Aware of a Secret](https://leetcode.com/problems/number-of-people-aware-of-a-secret/)
  [Maximum Subarray Sum with One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/)
+ [Length of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/)
+ [Minimum Score Triangulation of Polygon](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/)
