@@ -1,7 +1,8 @@
 #### Traversal technique
 	1. BFS (Breath first Search)
 	2. DFS (Depth first Search)
-
+	
+	Concepts :- Bipartite graph, Topological sort, cycle detection 
 ##### Tarjan's Algorithm (IMP):- 
 	Assign the time & lowest time to reach each node using dfs. If some node has greater time than parent that means it can't be reached node before parent. So there will only one edge connecting them.
 	Problems :- Articulations Points, Bridges in Graph, Strongly connect component 
@@ -42,9 +43,10 @@ Floyd Warshall
 
 
 Important problems :- 
-
+[Message Route](https://cses.fi/problemset/task/1667)
 [Number of Ways to Arrive at Destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/)
 [Bridge edge in a graph](https://www.geeksforgeeks.org/problems/bridge-edge-in-graph/1)
 [Articulation Point](https://www.geeksforgeeks.org/problems/articulation-point2616/1)
 [Minimum cost to connect all houses in a city](https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/1)
 [Mother Vertex](https://www.geeksforgeeks.org/problems/mother-vertex/1)
+[Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)

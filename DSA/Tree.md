@@ -3,7 +3,7 @@ All question of tree are based on traversal technique's. These are the all the t
 1. In order traversal
 2. Post order traversal
 3. Pre order traversal
-4. Morris traversal
+4. Morris traversal - Revision 
 5. BFS
 6. DFS
 
@@ -17,3 +17,4 @@ question for revision  :-
 [Fixing Two nodes of a BST](https://www.geeksforgeeks.org/problems/fixed-two-nodes-of-a-bst/1)
 [K Sum Paths](https://www.geeksforgeeks.org/problems/k-sum-paths/1 )
 [Construct Tree from Inorder & Preorder](https://www.geeksforgeeks.org/problems/construct-tree-1/1)
+[Distribute Coins in Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/)

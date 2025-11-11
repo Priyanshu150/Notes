@@ -14,3 +14,4 @@ IMPORTANT QUESTIONS TO SOLVE :-
 
 [Meeting Rooms III](https://leetcode.com/problems/meeting-rooms-iii/)
 [Reschedule Meetings for Maximum Free Time I](https://leetcode.com/problems/reschedule-meetings-for-maximum-free-time-i/)
+[Maximum Frequency of an Element After Performing Operations II](https://leetcode.com/problems/maximum-frequency-of-an-element-after-performing-operations-ii/)
