@@ -112,3 +112,24 @@ A **load balancer** is a system that distributes incoming network traffic across
               (Redis, Token Bucket, etc)
                      ↓
                [Application Server]
+
+5. API Gateway
+	An API gateway is a server that acts as a single entry point for client applications to access backend services, routing requests and handling cross-cutting tasks like authentication, rate limiting, and load balancing.
+	![](Images/API%20Gateway.png)
+	
+	Key function of API Gateway 
+	- Routing 
+	- Authentication and Authorization 
+	- Rate limiting 
+	- Request / Response transformation
+	- Load balancing 
+	- Caching 
+	- Security 
+	- Monitoring and Logging 
+	
+	Benefits of API Gateway 
+	- Simplifies client-side logic 
+	- Centralized security 
+	- Improved performance 
+	- Enhance scalability 
+	- Hide internal complexity 
