@@ -42,3 +42,4 @@ Partition/Block DP :-
 Strings DP :-
 [Wildcard Pattern Matching](https://www.geeksforgeeks.org/problems/wildcard-pattern-matching/1)
 [Interleaved Strings](https://www.geeksforgeeks.org/problems/interleaved-strings/1)
+[Number of distinct subsequences](https://www.geeksforgeeks.org/problems/number-of-distinct-subsequences0909/1)

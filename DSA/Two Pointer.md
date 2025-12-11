@@ -14,7 +14,9 @@ Two ways to approach such type of problem :-
 	- Number of subarray b/w i & j will (j - i + 1)
 	- If problem is asking for at most or greater than target value accumulate the answer from direct formula
 	- If problem is asking equals to target then use atMostTarget(target, arr) -  atMostTarget(target-1, arr
--
+
+3. Two pointer 
+	- Placing two pointer at different position to solve problem 
 
 Important problems :- 
 [Find X-Sum of All K-Long Subarrays II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii/)

@@ -37,3 +37,4 @@ Important questions :-
 [Kth Smallest Product of Two Sorted Arrays](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays/)
 [Maximize the Minimum Powered City](https://leetcode.com/problems/maximize-the-minimum-powered-city/)
 [K-th element of two Arrays](https://www.geeksforgeeks.org/problems/k-th-element-of-two-sorted-array1317/1)
+[Maximum Running Time of N Computers](https://leetcode.com/problems/maximum-running-time-of-n-computers/)

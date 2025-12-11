@@ -50,3 +50,5 @@ Important problems :-
 [Minimum cost to connect all houses in a city](https://www.geeksforgeeks.org/problems/minimum-cost-to-connect-all-houses-in-a-city/1)
 [Mother Vertex](https://www.geeksforgeeks.org/problems/mother-vertex/1)
 [Reorder Routes to Make All Paths Lead to the City Zero](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+[Shortest Path Using Atmost One Curved Edge](https://www.geeksforgeeks.org/problems/shortest-path-using-atmost-one-curved-edge--170647/1)
+[Second Best Minimum Spanning Tree](https://www.geeksforgeeks.org/problems/second-best-minimum-spanning-tree/1)
