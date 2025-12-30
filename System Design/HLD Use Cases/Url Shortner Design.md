@@ -41,3 +41,10 @@
 	
 	**Approach3** :- Use combination of multiple key, Hash + count + server name + id + timestamp an so on 
 	![](Image/app3%20url%20shortner.png)
+	
+	
+	Q. How Redirection is Handled
+	> When you click a short link, your browser makes a request to the **shortener’s server**, which looks up the destination in a high-speed database and sends back an **HTTP 301/302 status code**. This instruction tells your browser to instantly "jump" to the long URL without the shortener ever having to load the final page itself.
+
+	Q. How URLs are Shortened
+	>Shorteners assign each long URL a unique **ID number** in their database and then convert that number into **Base 62** ($0-9, a-z, A-Z$). This math allows them to compress a massive numeric ID into a tiny, 6 or 7-character string that acts as a unique key.
